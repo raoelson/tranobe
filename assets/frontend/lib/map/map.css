@@ -1,0 +1,37 @@
+/* MAp */
+.map {
+	width: 250px;
+	height: 440px;
+	background: url(madagascar-map.png) left top no-repeat;
+	position: relative;
+}
+
+.map .overlay {
+	width: 250px;
+	height: 440px;
+	background: url(madagascar-map.png) 250px top no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.map img {
+	width: 250px;
+	height: 440px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.map .xtooltip {
+	background: #111;
+	border-radius: 5px;
+	padding: 0 10px;
+	color: #FFF;
+	position: relative;
+	display: inline;
+	z-index: 300;
+	text-align: center;
+}
